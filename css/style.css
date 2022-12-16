@@ -4,9 +4,37 @@
     box-sizing: border-box;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: black;
+}
+
+.menu {
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.score {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.score b {
+    padding-left: 10px;
+}
+
 .game-board {
     width: 100%;
-    height: 800px;
+    height: 90vh;
     border-bottom: 15px solid green;
     margin: 0 auto;
     position: relative;
