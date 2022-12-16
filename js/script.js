@@ -33,6 +33,7 @@ const loop = setInterval(() => {
         mario.style.marginLeft = '50px';
 
         clearInterval(loop);
+
     } else {
 
     }
@@ -41,5 +42,12 @@ const loop = setInterval(() => {
 }, 10);
 
 
+
+const restart = () => {
+    window.location.reload();
+}
+
+const button = document.querySelector('input');
+button.addEventListener('click', restart);
 
 document.addEventListener('keydown', jump);

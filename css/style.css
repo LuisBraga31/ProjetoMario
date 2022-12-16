@@ -6,6 +6,7 @@
 
 header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     height: 10vh;
     background-color: black;
@@ -25,11 +26,18 @@ header {
     color: white;
     display: flex;
     align-items: center;
-    margin-right: 50px;
+
 }
 
 .score b {
     padding-left: 10px;
+}
+
+.restart {
+    display: flex;
+    margin-right: 20px;
+    padding: 5px;
+    cursor: pointer;
 }
 
 .game-board {
